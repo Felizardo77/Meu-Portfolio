@@ -18,7 +18,7 @@ const Navbar = () => {
         className="flex__center logo"
         onClick={() => scroll.scrollToTop({ duration: 500 })}
       >
-        {<span>Felizardo <span className="text__highlit">Muchanga</span></span>}
+        {<span>Felizardo Muchanga</span>}
       </div>
       <aside className={`flex__center sidebar ${showSideBar && "visible"}`}>
         <div className="flex sidebar__top">
