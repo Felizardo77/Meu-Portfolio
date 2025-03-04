@@ -28,9 +28,9 @@ const Footer = () => {
           <h3>Copyright &copy; Todos os direitos reservados - | 2025</h3>
           <p className="text__muted">Construido por Felizardo Paulo Muchanga</p>
         </div>
-        <div className="base__logo">
+        {/* <div className="base__logo">
             <h1 className="full__name shine">Felizardo Muchanga</h1>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

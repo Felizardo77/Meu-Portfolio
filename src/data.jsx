@@ -74,40 +74,59 @@ export const services = [
 
 export const projects = [
   {
-    title: "AI Powered School",
+    title: "Dashboard para Microcrédito",
     image: project1,
     category: "UI/UX",
-    description: `Transforming education with AI, our School UI Design project revolutionizes the 
-                     learning experience. Seamlessly integrating intelligent features, personalized interfaces, 
-                     and intuitive navigation, our design empowers educators and students alike. Experience 
-                     innovation at its finest as we pave the way for a smarter, more efficient educational 
-                     journey.`,
-    demoLink: "https://google.com/",
+    description: `Desenvolvimento de um dashboard intuitivo e eficiente para uma empresa de microcrédito. 
+                  O design foi criado para facilitar a visualização de dados financeiros e a gestão de empréstimos, 
+                  proporcionando uma experiência de usuário otimizada.`,
+    demoLink: "#",
     stacks: [
       {
-        name: "XD",
+        name: "Figma",
         logo: figma,
       },
     ],
   },
   {
-    title: "E-Commerce Application",
+    title: "Aplicativo de Requisição de Músicas - Play4Me",
     image: project2,
     category: "Web",
-    description: `Enhance your online shopping experience with our E-Commerce Application 
-      UI design project. Seamlessly blending aesthetics with functionality, our intuitive 
-      interface offers easy navigation, personalized recommendations, and secure 
-      transactions. Elevate your digital storefront and captivate customers with a visually 
-      stunning design tailored to your brand`,
-    demoLink: "https://google.com/",
+    description: `Desenvolvimento de um aplicativo de requisição de músicas chamado Play4Me. 
+                  O aplicativo permite que os usuários solicitem músicas em tempo real durante eventos. 
+                  Utilizando tecnologias modernas para garantir uma experiência de usuário fluida e responsiva.`,
+    demoLink: "https://play4me.vercel.app/home",
     stacks: [
       {
         name: "ReactJs",
         logo: react,
       },
       {
-        name: "XD",
+        name: "Node.js",
+        logo: nodejs,
+      },
+      {
+        name: "MySQL",
+        logo: mysql,
+      },
+    ],
+  },
+  {
+    title: "Desenvolvimento do Site Oficial da IkarusTech",
+    image: project3,
+    category: "Web",
+    description: `Desenvolvimento do site oficial da IkarusTech. O projeto foi desenhado inicialmente no Figma 
+                  e implementado utilizando HTML, CSS e JavaScript para criar uma presença online profissional 
+                  e atraente.`,
+    demoLink: "https://google.com/",
+    stacks: [
+      {
+        name: "Figma",
         logo: figma,
+      },
+      {
+        name: "HTML",
+        logo: html,
       },
       {
         name: "CSS",
@@ -120,57 +139,11 @@ export const projects = [
     ],
   },
   {
-    title: "Robotic Engineering Web Application",
-    image: project3,
-    category: "Web",
-    description: `Unlock the future of robotics with our Robotic Engineering Web Application
-      project. Seamlessly integrating cutting-edge technology, data analytics, 
-      and collaborative tools, our platform empowers engineers to design, simulate, 
-      and optimize robotic systems. Experience innovation at its peak as we redefine the 
-      boundaries of robotic engineering.`,
-    demoLink: "https://google.com/",
-    stacks: [
-      {
-        name: "ReactJs",
-        logo: react,
-      },
-      {
-        name: "Figma",
-        logo: figma,
-      },
-      {
-        name: "Tailwind",
-        logo: tailwind,
-      },
-    ],
-  },
-  {
-    title: "Project Management application",
+    title: "E-commerce",
     image: project4,
-    category: "Apps",
-    description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate in real-time, and streamline workflows effortlessly. With customizable features and robust reporting, stay organized and efficient.
-                     Elevate your project management experience and achieve success with ease.`,
-    demoLink: "https://google.com/",
-    stacks: [
-      {
-        name: "React Native",
-        logo: reactnative,
-      },
-      {
-        name: "XD",
-        logo: figma,
-      },
-      {
-        name: "CSS",
-        logo: css,
-      },
-    ],
-  },
-  {
-    title: "Mobile bank - App Design",
-    image: project5,
     category: "UI/UX",
-    description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
+    description: `Desenvolvimento de um design de E-commerce no Figma. O projeto foi focado em criar uma interface 
+                  intuitiva e atraente para melhorar a experiência de compra online dos usuários.`,
     demoLink: "https://google.com/",
     stacks: [
       {
@@ -179,36 +152,49 @@ export const projects = [
       },
     ],
   },
-  {
-    title: "Quiz App Development",
-    image: project6,
-    category: "Apps",
-    description: `Elevate engagement and knowledge retention with our Quiz App 
-                    Development project. Seamlessly crafted for interactive learning 
-                    experiences, our app offers customizable quizzes, real-time feedback, 
-                    and captivating visuals. Empower users to test their knowledge anytime,
-                     anywhere, fostering a dynamic learning environment tailored to their 
-                     needs.`,
-    demoLink: "https://google.com/",
-    stacks: [
-      {
-        name: "React Native",
-        logo: reactnative,
-      },
-      {
-        name: "Figma",
-        logo: figma,
-      },
-      {
-        name: "XD",
-        logo: figma,
-      },
-      {
-        name: "Bootstrap",
-        logo: bootstrap,
-      },
-    ],
-  },
+  // {
+  //   title: "Mobile bank - App Design",
+  //   image: project5,
+  //   category: "UI/UX",
+  //   description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
+  //   demoLink: "https://google.com/",
+  //   stacks: [
+  //     {
+  //       name: "Figma",
+  //       logo: figma,
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Quiz App Development",
+  //   image: project6,
+  //   category: "Apps",
+  //   description: `Elevate engagement and knowledge retention with our Quiz App 
+  //                   Development project. Seamlessly crafted for interactive learning 
+  //                   experiences, our app offers customizable quizzes, real-time feedback, 
+  //                   and captivating visuals. Empower users to test their knowledge anytime,
+  //                    anywhere, fostering a dynamic learning environment tailored to their 
+  //                    needs.`,
+  //   demoLink: "https://google.com/",
+  //   stacks: [
+  //     {
+  //       name: "React Native",
+  //       logo: reactnative,
+  //     },
+  //     {
+  //       name: "Figma",
+  //       logo: figma,
+  //     },
+  //     {
+  //       name: "XD",
+  //       logo: figma,
+  //     },
+  //     {
+  //       name: "Bootstrap",
+  //       logo: bootstrap,
+  //     },
+  //   ],
+  // },
 ];
 
 export const skills = [
@@ -297,24 +283,16 @@ export const skills = [
 export const contactInfo = [
   {
     name: "Email",
-    value: "mradinuba@gmail.com",
-    link: "mailto:mradinuba@gmail.com",
+    value: "felizardopaulo40@gmail.com",
+    link: "mailto:felizardopaulo40@gmail.com",
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
   },
   {
-    name: "Messenger",
-    value: "Emmanuel Eze",
-    link: "http://m.me/profile?id=profile-i",
-    icon: messengericon,
-    btnIcon: <RiMessengerLine />,
-    color: "rgb(139,74,251)",
-  },
-  {
     name: "WhatsApp",
-    value: "+2348149121918",
-    link: "https://api.whatsapp.com/send?phone=+2348149121918",
+    value: "+258878928346",
+    link: "https://api.whatsapp.com/send?phone=+258878928346",
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
     color: "rgb(38,234,112)",
