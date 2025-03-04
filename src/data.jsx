@@ -18,8 +18,8 @@ import {
   profile5,
   profile6,
   figma,
-  sketch,
-  xd,
+  photoshop,
+  ilustrador,
   css,
   html,
   javascript,
@@ -27,16 +27,21 @@ import {
   bootstrap,
   react,
   reactnative,
+  nodejs, // Certifique-se de que nodejs está sendo importado
+  java, // Certifique-se de que java está sendo importado
+  python, // Certifique-se de que python está sendo importado
+  //opencv, // Certifique-se de que opencv está sendo importado
+  mysql, // Certifique-se de que mysql está sendo importado
   emailicon,
   messengericon,
   whatsappicon,
 } from "./assets";
 
 export const menu = [
-  { name: "Sobre mim", nameClass:"about" },
-  { name: "Serviços", nameClass:"services"},
-  { name: "Skills", nameClass:"skills" },
-  { name: "Projectos", nameClass:"projects" },
+  { name: "Sobre mim", nameClass: "about" },
+  { name: "Serviços", nameClass: "services" },
+  { name: "Skills", nameClass: "skills" },
+  { name: "Projectos", nameClass: "projects" },
 ];
 
 export const services = [
@@ -81,7 +86,7 @@ export const projects = [
     stacks: [
       {
         name: "XD",
-        logo: xd,
+        logo: figma,
       },
     ],
   },
@@ -102,7 +107,7 @@ export const projects = [
       },
       {
         name: "XD",
-        logo: xd,
+        logo: figma,
       },
       {
         name: "CSS",
@@ -153,7 +158,7 @@ export const projects = [
       },
       {
         name: "XD",
-        logo: xd,
+        logo: figma,
       },
       {
         name: "CSS",
@@ -196,7 +201,7 @@ export const projects = [
       },
       {
         name: "XD",
-        logo: xd,
+        logo: figma,
       },
       {
         name: "Bootstrap",
@@ -216,14 +221,14 @@ export const skills = [
         logo: figma,
       },
       {
-        skill: "Sketch",
+        skill: "Photoshop",
         level: "Intermediate",
-        logo: sketch,
+        logo: photoshop,
       },
       {
-        skill: "XD",
+        skill: "Illustrator",
         level: "Intermediate",
-        logo: xd,
+        logo: ilustrador,
       },
     ],
   },
@@ -260,10 +265,30 @@ export const skills = [
         level: "Experienced",
         logo: react,
       },
+    ],
+  },
+  {
+    title: "Backend Development",
+    data: [
       {
-        skill: "React Native",
+        skill: "Node.js",
         level: "Experienced",
-        logo: reactnative,
+        logo: nodejs,
+      },
+      {
+        skill: "Java",
+        level: "Intermediate",
+        logo: java,
+      },
+      {
+        skill: "Python",
+        level: "Experienced",
+        logo: python,
+      },
+      {
+        skill: "MySQL",
+        level: "Experienced",
+        logo: mysql,
       },
     ],
   },

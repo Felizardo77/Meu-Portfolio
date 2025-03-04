@@ -32,9 +32,11 @@ const About = () => {
           </h2>
           <p className="text__muted description">
             Sou engenheiro de software e desenvolvedor fullstack, atuando como
-            co-fundador e dev fullstack na Ikarus Tech. Atualmente, estou focado
-            no desenvolvimento do site oficial da empresa e em projetos
-            estratégicos confidenciais.
+            cofundador e desenvolvedor fullstack na Ikarus Tech. Atualmente,
+            concentro-me no desenvolvimento de aplicativos web utilizando
+            React.js e Node.js. Além disso, sou entusiasta de visão
+            computacional com OpenCV em Python, uma área pela qual tenho grande
+            paixão.
           </p>
         </div>
       </div>

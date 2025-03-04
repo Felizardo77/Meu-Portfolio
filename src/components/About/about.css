@@ -63,7 +63,7 @@
     filter: grayscale(100%);
     filter: grayscale(1);
 }
-#about.skill__logo > img:hover{
+#about .skill__logo:hover > img{
     filter: grayscale(0%);
     filter: grayscale(0);
 }
