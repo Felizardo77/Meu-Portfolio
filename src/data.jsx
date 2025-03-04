@@ -217,82 +217,83 @@ export const skills = [
     data: [
       {
         skill: "Figma",
-        level: "Experienced",
+        level: "Experiente",
         logo: figma,
       },
       {
         skill: "Photoshop",
-        level: "Intermediate",
+        level: "Experiente",
         logo: photoshop,
       },
       {
         skill: "Illustrator",
-        level: "Intermediate",
+        level: "Intermediário",
         logo: ilustrador,
       },
     ],
   },
   {
-    title: "Frontend Development",
+    title: "Desenvolvimento Frontend",
     data: [
       {
         skill: "HTML",
-        level: "Experienced",
+        level: "Experiente",
         logo: html,
       },
       {
         skill: "CSS",
-        level: "Experienced",
+        level: "Experiente",
         logo: css,
       },
       {
         skill: "JavaScript",
-        level: "Experienced",
+        level: "Experiente",
         logo: javascript,
       },
       {
         skill: "Tailwind",
-        level: "Intermediate",
+        level: "Intermediário",
         logo: tailwind,
       },
       {
         skill: "Bootstrap",
-        level: "Experienced",
+        level: "Intermediário",
         logo: bootstrap,
       },
       {
         skill: "React",
-        level: "Experienced",
+        level: "Experiente",
         logo: react,
       },
     ],
   },
   {
-    title: "Backend Development",
+    title: "Desenvolvimento Backend",
     data: [
       {
         skill: "Node.js",
-        level: "Experienced",
+        level: "Intermediário",
         logo: nodejs,
       },
       {
         skill: "Java",
-        level: "Intermediate",
+        level: "Experiente",
         logo: java,
       },
       {
         skill: "Python",
-        level: "Experienced",
+        level: "Experiente",
         logo: python,
       },
       {
         skill: "MySQL",
-        level: "Experienced",
+        level: "Experiente",
         logo: mysql,
       },
     ],
   },
 ];
+
 export const contactInfo = [
   {
     name: "Email",
