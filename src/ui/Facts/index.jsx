@@ -10,8 +10,8 @@ const Facts = () => {
   useEffect(()=>{
     const timeoutId = setTimeout(() => {
         setExperience(5);
-        setProjects(10);
-        setClients(2.5);
+        setProjects(8);
+        setClients(10);
     }, 3000)
     return () => clearTimeout(timeoutId)
   }, [])
@@ -37,7 +37,7 @@ const Facts = () => {
       <div className="fact__item">
         <div className="flex__center">
           <Odometer value={clients} className="title" />
-          <h3 className="title">K</h3>
+          <h3 className="title">+</h3>
         </div>
         <p className="label">Clientes satisfeitos</p>
       </div>

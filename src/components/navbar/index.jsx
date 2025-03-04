@@ -4,6 +4,7 @@ import { menu } from "../../data";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { FaArrowUpRightFromSquare, FaBarsStaggered } from "react-icons/fa6";
 import { useState } from "react";
+
 const Navbar = () => {
   const [showSideBar, setShowSideBar] = useState(false);
   return (
@@ -22,14 +23,17 @@ const Navbar = () => {
       </div>
       <aside className={`flex__center sidebar ${showSideBar && "visible"}`}>
         <div className="flex sidebar__top">
-          <span className="icon__container close__btn" onClick={() => setShowSideBar(!showSideBar)}>
+          <span
+            className="icon__container close__btn"
+            onClick={() => setShowSideBar(!showSideBar)}
+          >
             <FaTimes />
           </span>
         </div>
         <div className="flex sidebar__middle">
           {menu.map((list, index) => (
             <Link
-              to={list.name.toLowerCase()}
+              to={list.nameClass.toLowerCase().replace(" ", "-")}
               spy={true}
               smooth={true}
               offset={-70}
@@ -46,7 +50,7 @@ const Navbar = () => {
       </aside>
       <div className="flex__center buttons__wrapper">
         <Link to="contact" className="btn flex__center hire__btn">
-          Contrate-me
+          Contacte-me
           <div className="flex__center icon">
             <FaArrowUpRightFromSquare />
           </div>

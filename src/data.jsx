@@ -33,12 +33,10 @@ import {
 } from "./assets";
 
 export const menu = [
-  { name: "About" },
-  { name: "Services" },
-  { name: "Skill" },
-  { name: "Projects" },
-  { name: "Testimonial" },
-  { name: "Contact" },
+  { name: "Sobre mim", nameClass:"about" },
+  { name: "Serviços", nameClass:"services"},
+  { name: "Skills", nameClass:"skills" },
+  { name: "Projectos", nameClass:"projects" },
 ];
 
 export const services = [
@@ -300,23 +298,23 @@ export const socialHandles = [
   {
     name: "Fiverr",
     icon: <SiFiverr />,
-    link: "",
+    link: "https://www.fiverr.com/felizardopaulo7",
   },
   {
     name: "Github",
     icon: <AiFillGithub />,
-    link: "",
+    link: "https://github.com/Felizardo77",
   },
   {
     name: "LinkedIn",
     icon: <AiFillLinkedin />,
-    link: "",
+    link: "https://linkedin.com/in/felizardo77",
   },
-  {
-    name: "Youtube",
+  /*{
+    name: "Face",
     icon: <AiFillYoutube />,
     link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-  },
+  },*/
 ];
 
 export const testimonials = [
