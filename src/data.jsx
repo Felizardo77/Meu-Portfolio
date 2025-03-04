@@ -46,29 +46,29 @@ export const menu = [
 
 export const services = [
   {
-    title: "UI/UX Design",
+    title: "Design UI/UX",
     icon: <FaPaintBrush />,
-    description: `Crafting visually stunning and user-centric designs that ensure seamless user experiences. 
-                  From wireframes to high-fidelity prototypes, I focus on creating intuitive interfaces that 
-                  blend creativity and functionality, enhancing engagement and usability.`,
+    description: `Criando designs visualmente impressionantes e centrados no usuário que garantem experiências de usuário perfeitas. 
+                  Desde wireframes até protótipos de alta fidelidade, foco em criar interfaces intuitivas que 
+                  combinam criatividade e funcionalidade, aumentando o engajamento e a usabilidade.`,
   },
   {
-    title: "Web Development",
+    title: "Desenvolvimento Web",
     icon: <FaCodeCompare />,
     color: "blueviolet",
     colorRGB: "138, 43, 226",
-    description: `Building responsive, dynamic, and high-performance websites tailored to your needs. 
-    Using modern technologies like React, Node.js, and more, I ensure your site is optimized 
-    for speed, scalability, and accessibility, delivering a robust online presence.`,
+    description: `Construindo sites responsivos, dinâmicos e de alto desempenho, adaptados às suas necessidades. 
+    Usando tecnologias modernas como React, Node.js e mais, garanto que seu site seja otimizado 
+    para velocidade, escalabilidade e acessibilidade, oferecendo uma presença online robusta.`,
   },
   {
-    title: "Content Creation",
+    title: "Desenvolvimento de Aplicativos Desktop",
     icon: <GiIdea />,
     color: "var(--color-success)",
     colorRGB: "var(--color-success-rgb)",
-    description: `Producing compelling digital content that resonates with your audience. From blogs 
-                  and technical documentation to engaging website copy, I ensure your brand's message 
-                  is clear, impactful, and aligned with your business goals.`,
+    description: `Desenvolvendo aplicativos de desktop robustos e eficientes que atendem às suas necessidades empresariais. 
+                  Desde a concepção até a implementação, foco em criar soluções de software que sejam escaláveis, 
+                  seguras e fáceis de usar, garantindo uma experiência de usuário superior.`,
   },
 ];
 
