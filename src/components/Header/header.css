@@ -56,4 +56,25 @@
   #header .social__handles__container {
     justify-content: center;
   }
+  .custom-title {
+    position: relative;
+    width: 70%;
+    top: -60%;
+    left: 10%;
+    font-size: 1.6rem;
+    font-weight: 500; /* Ajuste o tamanho conforme necessário */
+    text-align: left; /* Alinhar o texto à esquerda */
+  }
+}
+
+@media (max-width: 480px){
+  .custom-title {
+    position: relative;
+    width: 70%;
+    top: -80%;
+    left: 10%;
+    font-size: 1.4rem;
+    font-weight: 500; /* Ajuste o tamanho conforme necessário */
+    text-align: left; /* Alinhar o texto à esquerda */
+  }
 }

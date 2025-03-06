@@ -144,6 +144,12 @@ textarea:focus{
 #contact .submit__btn:hover .icon{
     animation: fly 0.6s ease-in-out infinite alternate;
 }
+#contact .confirmation-message {
+  margin-top: 1rem;
+  color: green; /* Ajuste a cor conforme necessário */
+  font-size: 1rem;
+  text-align: center;
+}
 @keyframes fly{
     from{
         transform: translateY(0.1rem);
